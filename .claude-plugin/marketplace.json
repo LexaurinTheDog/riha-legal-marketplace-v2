@@ -36,6 +36,16 @@
       },
       "source": "./plugins/datova-schranka-helper",
       "category": "legal"
+    },
+    {
+      "name": "aml-provereni",
+      "description": "AML client verification per Czech Act No. 253/2008 Sb. — identity checks, public register lookups, PEP screening, sanctions, and risk assessment for legal practice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "RIHA legal advokátní kancelář s.r.o."
+      },
+      "source": "./plugins/aml-provereni",
+      "category": "legal"
     }
   ]
 }
