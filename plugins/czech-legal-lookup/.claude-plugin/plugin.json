@@ -1,0 +1,8 @@
+{
+  "name": "czech-legal-lookup",
+  "description": "Search and retrieve Czech legislation, including full text of laws, amendments, and historical versions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "RIHA legal advokátní kancelář s.r.o."
+  }
+}

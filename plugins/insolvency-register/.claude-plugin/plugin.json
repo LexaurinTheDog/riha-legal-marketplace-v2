@@ -1,0 +1,8 @@
+{
+  "name": "insolvency-register",
+  "description": "Query the Czech Insolvency Register (ISIR) for proceedings, creditor claims, and debtor information.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AWRA insolvence, v.o.s."
+  }
+}

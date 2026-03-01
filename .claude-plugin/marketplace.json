@@ -1,0 +1,41 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "riha-legal-marketplace",
+  "description": "Plugin marketplace for RIHA legal advokátní kancelář s.r.o. and AWRA insolvence, v.o.s. — Czech legal tools and automations.",
+  "owner": {
+    "name": "RIHA legal advokátní kancelář s.r.o.",
+    "email": "info@rihalegal.cz"
+  },
+  "plugins": [
+    {
+      "name": "czech-legal-lookup",
+      "description": "Search and retrieve Czech legislation, including full text of laws, amendments, and historical versions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "RIHA legal advokátní kancelář s.r.o."
+      },
+      "source": "./plugins/czech-legal-lookup",
+      "category": "legal"
+    },
+    {
+      "name": "insolvency-register",
+      "description": "Query the Czech Insolvency Register (ISIR) for proceedings, creditor claims, and debtor information.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AWRA insolvence, v.o.s."
+      },
+      "source": "./plugins/insolvency-register",
+      "category": "legal"
+    },
+    {
+      "name": "datova-schranka-helper",
+      "description": "Generate properly formatted submissions for Czech data boxes (datové schránky) with correct headers and metadata.",
+      "version": "1.0.0",
+      "author": {
+        "name": "RIHA legal advokátní kancelář s.r.o."
+      },
+      "source": "./plugins/datova-schranka-helper",
+      "category": "legal"
+    }
+  ]
+}

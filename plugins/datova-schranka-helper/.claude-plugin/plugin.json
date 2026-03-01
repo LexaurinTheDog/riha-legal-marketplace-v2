@@ -1,0 +1,8 @@
+{
+  "name": "datova-schranka-helper",
+  "description": "Generate properly formatted submissions for Czech data boxes (datové schránky) with correct headers and metadata.",
+  "version": "1.0.0",
+  "author": {
+    "name": "RIHA legal advokátní kancelář s.r.o."
+  }
+}
